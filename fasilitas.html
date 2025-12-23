@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kelompok Bermain Teratai Putih</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Sekolah">
+            <div class="nama-sekolah">
+                <h1>KELOMPOK BERMAIN TERATAI PUTIH</h1>
+            </div>
+            <!-- HAMBURGER -->
+    <div class="menu-toggle" id="menuToggle">
+        <i class="ri-menu-line"></i>
+    </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="profil.php">Profil</a></li>
+                <li><a href="fasilitas.php" class="active">Fasilitas</a></li>
+                <li><a href="kegiatan.php">Kegiatan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="page-banner" style="--bg:url('../img/banner_fasilitas.png')">
+        <div class="banner-content">
+            <h1>Fasilitas</h1>
+            <p>Sarana dan Prasarana Kegiatan Belajar Mengajar</p>
+        </div>
+    </section>
+
+    <!-- Fasilitas -->
+    <section class="kegiatan-section">
+        <h2>Fasilitas Sekolah</h2>
+        <div class="kegiatan-container">
+
+            <div class="fasilitas-card">
+                <div class="image-box">
+                    <img src="img/ruang pembiasaan.jpg" alt="Ruang Pembiasaan" onclick="openLightbox(this)">
+                </div>
+                <h3>Ruang Pembiasaan Baca Iqro dan Absen</h3>
+            </div>
+
+            <div class="fasilitas-card">
+                <div class="image-box">
+                    <img src="img/ruang kelas biru.jpg" alt="Bilik Kelas Biru" onclick="openLightbox(this)">
+                </div>
+                <h3>Bilik Kelas Kelompok Biru</h3>
+            </div>
+
+            <div class="fasilitas-card">
+                <div class="image-box">
+                    <img src="img/bilik kelas kuning.jpg" alt="Bilik Kelas Kuning" onclick="openLightbox(this)">
+                </div>
+                <h3>Bilik Kelas Kelompok Kuning</h3>
+            </div>
+
+            <div class="fasilitas-card">
+                <div class="image-box">
+                    <img src="img/bilik kelas merah.jpg" alt="Bilik Kelas Merah" onclick="openLightbox(this)">
+                </div>
+                <h3>Bilik Kelas Kelompok Merah</h3>
+            </div>
+
+            <div class="fasilitas-card">
+                <div class="image-box">
+                    <img src="img/angklung.jpg" alt="Angklung" onclick="openLightbox(this)">
+                </div>
+                <h3>Angklung</h3>
+            </div>
+
+            <div class="fasilitas-card">
+                <div class="image-box">
+                    <img src="img/kantor.jpg" alt="Ruang Kepala Sekolah dan Guru" onclick="openLightbox(this)">
+                </div>
+                <h3>Ruang Kepala Sekolah dan Guru</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+
+            <!-- KIRI -->
+            <div class="footer-kolom">
+                <h4>Tautan Cepat</h4>
+                <ul>
+                    <li><a href="index.php">Beranda</a></li>
+                    <li><a href="profil.php">Profil Sekolah</a></li>
+                    <li><a href="fasilitas.php">Fasilitas Sekolah</a></li>
+                    <li><a href="kegiatan.php">Kegiatan Sekolah</a></li>
+                </ul>
+            </div>
+
+            <!-- TENGAH -->
+            <div class="footer-kolom">
+                <h4>Hubungi Kami</h4>
+                <p>📞 0857 8484 8900</p>
+                <p>📧 terataiputih@gmail.com</p>
+            </div>
+
+
+            <!-- KANAN -->
+            <div class="footer-kolom lokasi-footer">
+                <h4>Alamat</h4>
+                <p>
+                    Jl. Poponatawijaya, Desa Suka Makmur<br>
+                    Kecamatan Sungai Bahar
+                </p>
+
+                <div class="lokasi-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451.05581169165015!2d103.424754823004!3d-1.9687530252757257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2f8f789a083f39%3A0xf6ff705d6126c70a!2sTk%20DARMA%20WANITA!5e1!3m2!1sid!2sid!4v1765895461888!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></>"
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Kelompok Bermain Teratai Putih. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/6285776287349?text=Halo%20KB%20Teratai%20Putih,%20saya%20ingin%20bertanya"
+        class="floating-wa"
+        target="_blank"
+        aria-label="Chat WhatsApp">
+        <i class="ri-whatsapp-fill"></i>
+    </a>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="Gambar Fasilitas">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
